@@ -1,0 +1,75 @@
+:root {
+  --primary-color: rgb(16, 224, 207);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+header {
+  font-size: x-large;
+}
+h1 {
+  margin-bottom: 0rem;
+}
+.underline {
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.25rem;
+  width: 3rem;
+  background-color: var(--primary-color);
+}
+.section-center {
+  display: flex;
+  flex-direction: row;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 3rem;
+}
+button {
+  background: transparent;
+  border: transparent;
+  padding: 0.7rem 0.5rem;
+  cursor: pointer;
+  font-size: medium;
+}
+button:hover {
+  color: var(--primary-color);
+}
+.active-btn {
+  color: var(--primary-color);
+  border-left: 1px solid var(--primary-color);
+}
+.article {
+  max-width: 600px;
+}
+.title {
+  text-align: left;
+  font-size: 23px;
+}
+.article h4 {
+  padding: 0.2rem 0.2rem;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  display: block;
+  max-width: 3.5rem;
+  font-weight: lighter;
+  font-size: 13px;
+  color: white;
+  background-color: rgb(120, 185, 207);
+}
+.dates {
+  text-align: left;
+  font-size: small;
+  color: rgb(2, 127, 165);
+}
+.details {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(4, 70, 92);
+}
